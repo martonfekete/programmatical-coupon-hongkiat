@@ -1,3 +1,4 @@
+<?php 
 /*
  * CREATE COUPON PROGRAMATICALLY 
  * create only when customer sees the woocommerce thankyou page
@@ -45,3 +46,4 @@ function my_custom_coupon_creation(){
 	}
 	
 }
+?>
