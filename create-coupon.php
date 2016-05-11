@@ -39,7 +39,7 @@ function my_custom_coupon_creation(){
 		
 		$coupon = array(
 			'post_title' => $coupon_code,
-			'post_excerpt' => 'Order ID: ' . $order_id,
+			'post_excerpt' => 'Short desc for your auto-coupon',
 			'post_status' => 'publish',
 			'post_author' => 1,
 			'post_type'		=> 'shop_coupon'
